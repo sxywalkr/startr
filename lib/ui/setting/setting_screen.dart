@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_platform_widgets/flutter_platform_widgets.dart';
-import 'package:noteapp/app_localizations.dart';
-import 'package:noteapp/providers/auth_provider.dart';
-import 'package:noteapp/providers/theme_provider.dart';
-import 'package:noteapp/routes.dart';
-import 'package:noteapp/ui/setting/setting_language_actions.dart';
+import 'package:startr/app_localizations.dart';
+import 'package:startr/providers/auth_provider.dart';
+import 'package:startr/providers/theme_provider.dart';
+import 'package:startr/routes.dart';
+import 'package:startr/ui/setting/setting_language_actions.dart';
 import 'package:provider/provider.dart';
 
 class SettingScreen extends StatelessWidget {
@@ -37,8 +37,10 @@ class SettingScreen extends StatelessWidget {
           ),
         ),
         ListTile(
-          title: Text(AppLocalizations.of(context).translate("settingLanguageListTitle")),
-          subtitle: Text(AppLocalizations.of(context).translate("settingLanguageListSubTitle")),
+          title: Text(AppLocalizations.of(context)
+              .translate("settingLanguageListTitle")),
+          subtitle: Text(AppLocalizations.of(context)
+              .translate("settingLanguageListSubTitle")),
           trailing: SettingLanguageActions(),
         ),
         ListTile(

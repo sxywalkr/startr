@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:noteapp/flavor.dart';
-import 'package:noteapp/my_app.dart';
-import 'package:noteapp/providers/auth_provider.dart';
-import 'package:noteapp/providers/language_provider.dart';
-import 'package:noteapp/providers/theme_provider.dart';
-import 'package:noteapp/services/firestore_database.dart';
+import 'package:startr/flavor.dart';
+import 'package:startr/my_app.dart';
+import 'package:startr/providers/auth_provider.dart';
+import 'package:startr/providers/language_provider.dart';
+import 'package:startr/providers/theme_provider.dart';
+import 'package:startr/services/firestore_database.dart';
 import 'package:provider/provider.dart';
 
 void main() {
