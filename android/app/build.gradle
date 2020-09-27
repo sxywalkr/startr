@@ -61,7 +61,7 @@ android {
     productFlavors {
         dev {
             dimension "flavor-type"
-            applicationId "com.example.create_flutter_provider_app.dev"
+            applicationId "com.sxywlkr.startr"
             versionCode 1
             versionName "1.0"
         }
